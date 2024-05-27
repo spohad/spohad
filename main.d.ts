@@ -88,14 +88,10 @@ declare module "spohad" {
         procid: number, 
         /**
          * Current version.
-         * 
-         * @default 1
          */
         version: 1, 
         /**
          * Current system hostname.
-         * 
-         * @default 1
          */
         hostname: string
     }
@@ -208,7 +204,7 @@ declare module "spohad" {
         /**
          * The `levels` property contain the transport levels names.
          */
-        levels: string | string[]
+        levels?: string | string[]
     }
 
     export class LoggerTransport extends Writable {
@@ -223,7 +219,7 @@ declare module "spohad" {
         /**
          * The `paint` option defines is should message has been painted.
          */
-        paint: boolean
+        paint?: boolean
     }
 
     export class LoggerConsoleTransport extends LoggerTransport {
