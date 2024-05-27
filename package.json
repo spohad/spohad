@@ -1,0 +1,40 @@
+{
+  "name": "spohad",
+  "version": "1.0.0",
+  "description": "A minimalistic and flexible logger utility",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "date-format": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "scripts": {
+    "test": "node --test ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spohad/spohad.git"
+  },
+  "homepage": "https://github.com/spohad/spohad",
+  "keywords": [
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "tools",
+    "json"
+  ],
+  "author": "<sabaziosd@proton.me> (https://github.com/SabaziosD)",
+  "license": "MIT",
+  "types": "./main.d.ts",
+  "bugs": {
+    "url": "https://github.com/spohad/spohad/issues"
+  }
+}
