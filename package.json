@@ -31,7 +31,7 @@
     "tools",
     "json"
   ],
-  "author": "<sabaziosd@proton.me> (https://github.com/SabaziosD)",
+  "author": "undefined <sabaziosd@proton.me> (https://github.com/SabaziosD)",
   "license": "MIT",
   "types": "./main.d.ts",
   "bugs": {
